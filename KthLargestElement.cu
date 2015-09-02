@@ -1,3 +1,6 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<cuda.h>
 __global__ void enumsort(int *deva, int *devn)
 {
 	int tid = threadIdx.x;
